@@ -1,0 +1,284 @@
+/*Sticky*/
+
+
+#logo {
+    width: 80;
+    height: 50px;
+    margin-right: 200px;
+}
+
+#sticky {
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: #D3E1C6;
+}
+
+.homelinks {
+    font-weight: bold;
+    color: #008665;
+    margin: 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#links {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+/*Main Page*/
+#main {
+    width: auto;
+    height: 220px;
+    background-color: #008665;
+    display: flex;
+    padding: 15px;
+}
+
+.mainp {
+
+    color: white;
+}
+
+#p1 {
+    font-size: 22px;
+}
+
+#frame {
+    width: 400;
+    height: 250;
+}
+
+.btn_free_trial1 {
+    width: auto;
+    height: auto;
+    background-color: #D3E1C6;
+    border: none;
+    color: #008665;
+    padding: 7px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 3px 70px;
+    border-radius: 25px;
+    cursor: grab;
+}
+
+.btn_free_trial {
+    width: auto;
+    height: auto;
+    background-color: #008665;
+    border: none;
+    color: white;
+    padding: 7px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 3px 70px;
+    border-radius: 25px;
+    cursor: grab;
+}
+
+.main {
+    color: #D4E0C6;
+    display: flex;
+    padding: 7px;
+    /* padding :10px;*/
+    color: #008665;
+}
+
+.main2c {
+    padding-left: 20px;
+    color: #008665;
+    font-size: 12px;
+}
+
+.img2 {
+    width: 320px;
+    height: auto;
+}
+
+/*======================================*/
+#icons {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 33% 33% 33%;
+    background-color: #D4E0C6;
+}
+
+.box {
+    background: #D4E0C6;
+    border: 1px solid#D4E0C6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #D4E0C6;
+    padding: 15px 0px 5px;
+}
+
+.grid {
+    margin: 15px;
+}
+
+.ICN {
+    width: 40px;
+    height: 40px;
+}
+
+.grid strong {
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.grid p {
+    font-size: 12px;
+}
+
+/*================================*/
+li {
+    color: black;
+    font-size: 10px;
+}
+
+/*================================*/
+.inner {
+    height: 30px;
+    border-radius: 12px;
+    background-color: #008665
+}
+
+#img6 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    /* Centers horizontally */
+    /* align-items: center;    */
+
+}
+
+.child {
+    font-size: 12px;
+    width: 260px;
+    /* Example width */
+    height: auto;
+    /* Example height */
+}
+
+h3 {
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+}
+
+/**********************************************/
+.plan {
+    justify-content: center;
+    border-radius: 12px;
+    border: #D3E1C6 0.2px solid;
+    text-align: center;
+    font-size: 10px;
+    width: 50%;
+    margin-left: 55px;
+}
+
+#form0 {
+    font-size: 8px;
+    display: flex;
+    background-color: #D3E1C6;
+}
+
+#form0,
+ul,
+li {
+    font-size: 8px;
+    background-color: D3E1C6;
+    color: white;
+}
+
+#form1,
+#form3 {
+    margin-left: 10px;
+    background-color: #008665;
+}
+
+#form1,
+#form2,
+#form3 {
+    font-size: 8px;
+    width: 30%;
+    border-radius: 30px;
+}
+
+#form2 {
+    visibility: hidden;
+}
+
+hr {
+    color: #D3E1C6;
+}
+
+input {
+    background-color: #D3E1C6;
+    font-size: 8px;
+    margin-left: 45px;
+    display: inline-block;
+}
+
+form {
+    border-radius: 15px;
+    margin: 6px;
+    padding: 5px;
+    background-color: #D4E0C6;
+    width: 90%;
+}
+
+.btnform {
+    background-color: gray;
+    color: white;
+    margin-left: 55px;
+}
+
+/*****************************/
+footer {
+    display: flex;
+    background-color: #008665;
+    color: white;
+}
+
+.social {
+    display: inline;
+}
+
+.ftr {
+    padding: 2px 5px;
+}
+
+#footer1 {
+    width: 33%;
+}
+
+#footer2 {
+    width: 33%;
+}
+
+#footer3 {
+    width: 33%;
+}
+
+.LastLinks {
+    text-decoration: none;
+    display: block;
+}
